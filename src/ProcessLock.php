@@ -6,6 +6,11 @@ namespace happyproff\YiiProcessLock;
 
 
 
+use Yii;
+use CApplicationComponent;
+
+
+
 class ProcessLock extends CApplicationComponent {
 
 
