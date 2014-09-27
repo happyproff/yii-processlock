@@ -1,0 +1,21 @@
+{
+    "name": "happyproff/yii-processlock",
+    "type": "library",
+    "description": "Prevent simultaneous scripts execution.",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stanislav Gamayunov", "email": "happyproff@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "yiisoft/yii": "1.1.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "happyproff\\YiiProcessLock\\": "src/"
+        }
+    }
+}
