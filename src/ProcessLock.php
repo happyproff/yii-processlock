@@ -16,7 +16,7 @@ class ProcessLock extends CApplicationComponent {
 
 
     /**
-     * @param int $id
+     * @param string $id
      */
     public function checkIn ($id) {
 
